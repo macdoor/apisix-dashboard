@@ -22,7 +22,7 @@ import { formatMessage, getLocale } from 'umi';
 import defaultSettings from '../config/defaultSettings';
 
 // see https://github.com/suren-atoyan/monaco-react/issues/168
-loader.config({ paths: { vs: '/monaco-editor/min/vs' } });
+loader.config({ paths: { vs: '/hb3-ifz-bridge-004-apisix/monaco-editor/min/vs' } });
 if (getLocale() === 'zh-CN') {
   loader.config({ 'vs/nls': { availableLanguages: { '*': 'zh-cn' } } });
 }

@@ -45,8 +45,8 @@ export default defineConfig({
     locale: true,
     logo: '/favicon.png',
   },
-  base: '/',
-  publicPath: '/',
+  base: '/hb3-ifz-bridge-004-apisix/',
+  publicPath: '/hb3-ifz-bridge-004-apisix/',
   define: {
     REACT_APP_ENV: REACT_APP_ENV || false,
     'process.env': {

@@ -70,7 +70,7 @@ const nullValueFilter = (obj: Record<string, any>) => {
 };
 
 export const request: RequestConfig = {
-  prefix: '/apisix/admin',
+  prefix: '/hb3-ifz-bridge-004-apisix/apisix/admin',
   errorHandler,
   credentials: 'same-origin',
   requestInterceptors: [
